@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  text-align: center;
+}
+
+.TicTaeToe {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.Stroke {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: oldlace;
+  font-size: x-large;
+  font-weight: bold;;
+}
